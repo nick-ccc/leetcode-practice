@@ -4,7 +4,7 @@
 
 <progress value="0" max="60" style="width:300px;"></progress>  
 <br/>
-<strong>Completed: 0 / 60 problems</strong>
+<strong>Completed: 2 / 60 problems</strong>
 
 </div>
 
@@ -15,8 +15,8 @@
 
 | Done | Problem | Topic | Notes |
 |------|---------|--------|-------|
-| [ ] | 1. Two Sum | HashMap | Core pattern for O(n) lookups |
-| [ ] | 217. Contains Duplicate | Hashing | Easy warm-up |
+| [X] | 1. Two Sum | HashMap | Core pattern for O(n) lookups |
+| [X] | 217. Contains Duplicate | Hashing | Easy warm-up |
 | [ ] | 242. Valid Anagram | HashMap | Frequency counting |
 | [ ] | 49. Group Anagrams | HashMap | Canonical grouping problem |
 | [ ] | 347. Top K Frequent Elements | Heap / HashMap | Extremely common |
