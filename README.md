@@ -4,7 +4,7 @@
 
 <progress value="0" max="60" style="width:300px;"></progress>  
 <br/>
-<strong>Completed: 2 / 60 problems</strong>
+<strong>Completed: 4 / 60 problems</strong>
 
 </div>
 
@@ -17,8 +17,8 @@
 |------|---------|--------|-------|
 | [X] | 1. Two Sum | HashMap | Core pattern for O(n) lookups |
 | [X] | 217. Contains Duplicate | Hashing | Easy warm-up |
-| [ ] | 242. Valid Anagram | HashMap | Frequency counting |
-| [ ] | 49. Group Anagrams | HashMap | Canonical grouping problem |
+| [X] | 242. Valid Anagram | HashMap | Frequency counting |
+| [X] | 49. Group Anagrams | HashMap | Canonical grouping problem |
 | [ ] | 347. Top K Frequent Elements | Heap / HashMap | Extremely common |
 | [ ] | 36. Valid Sudoku | Sets / Hashing | Grid hashing logic |
 
@@ -134,7 +134,6 @@
 
 ---
 
-## How to Use This Table
-- Aim for **40–60 problems** from this list for backend readiness.  
+## How to Use This Table 
 - Start with Hashing → Sliding Window → Binary Search → Trees → Graphs → DP → Concurrency.  
 - Add System Design algorithms in parallel with coding practice.
