@@ -4,7 +4,7 @@
 
 <progress value="0" max="60" style="width:300px;"></progress>  
 <br/>
-<strong>Completed: 6 / 60 problems</strong>
+<strong>Completed: 7 / 60 problems</strong>
 
 </div>
 
@@ -28,7 +28,7 @@
 
 | Done | Problem | Topic | Notes |
 |------|---------|--------|-------|
-| [ ] | 3. Longest Substring Without Repeating Characters | Sliding Window | Must-know pattern |
+| [X] | 3. Longest Substring Without Repeating Characters | Sliding Window | Must-know pattern |
 | [ ] | 209. Minimum Size Subarray Sum | Sliding Window | Classic expand/shrink |
 | [ ] | 76. Minimum Window Substring | Sliding Window | Hard but important |
 | [ ] | 424. Longest Repeating Character Replacement | Window | Very common FB/Google |
