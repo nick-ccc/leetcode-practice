@@ -4,23 +4,23 @@
 
 <progress value="0" max="60" style="width:300px;"></progress>  
 <br/>
-<strong>Completed: 4 / 60 problems</strong>
+<strong>Completed: 6 / 60 problems</strong>
 
 </div>
 
 
 
 # Selected Problem plan
-## Hashing & Arrays
+## Hashing
 
 | Done | Problem | Topic | Notes |
 |------|---------|--------|-------|
 | [X] | 1. Two Sum | HashMap | Core pattern for O(n) lookups |
-| [X] | 217. Contains Duplicate | Hashing | Easy warm-up |
+| [X] | 217. Contains Duplicate  ([X] **BONUS CONTAINS DUPLICATE III**)| Hashing | Easy warm-up | 
 | [X] | 242. Valid Anagram | HashMap | Frequency counting |
 | [X] | 49. Group Anagrams | HashMap | Canonical grouping problem |
-| [ ] | 347. Top K Frequent Elements | Heap / HashMap | Extremely common |
-| [ ] | 36. Valid Sudoku | Sets / Hashing | Grid hashing logic |
+| [X] | 347. Top K Frequent Elements | Heap / HashMap | Extremely common |
+| [X] | 36. Valid Sudoku | Sets / Hashing | Grid hashing logic |
 
 ---
 
