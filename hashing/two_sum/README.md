@@ -14,7 +14,7 @@ You can return the answer in any order.
 
 ### Thinking:
 
-First thought is we can have a hasha map where the keys are all values less than the target. At each pass we can add an index to that value in the hash map and check what the corresponding the `Target - current` and if both have a match we are done. 
+First thought is we can have a hash map where the keys are all values less than the target. At each pass we can add an index to that value in the hash map and check what the corresponding the `Target - current` and if both have a match we are done. 
 
 First edit, this won't work because numbers less than or equal to zero are allowed.
 So we really need to add all numbers we see not just those less than the targets.

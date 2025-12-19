@@ -14,17 +14,17 @@ func topKFrequent(nums []int, k int) []int {
 		freq[_count] = append(freq[_count], n)
 	}
 
-	res := []int{}
+	top_k := []int{}
 	for i := len(freq) - 1; i > 0; i-- {
 		for _, n := range freq[i] {
-			res = append(res, n)
-			if len(res) == k {
-				return res
+			top_k = append(top_k, n)
+			if len(top_k) == k {
+				return top_k
 			}
 		}
 	}
 
-	return res
+	return top_k
 }
 
 func main() {

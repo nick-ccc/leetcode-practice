@@ -11,6 +11,10 @@ func SortString(w string) string {
 	return strings.Join(s, "")
 }
 
+// Solution 0
+// Stats:
+// - Runtime: 92.84 precentile
+// - Memory: 38.74 percentile
 func groupAnagrams0(strs []string) [][]string {
 	sorting_map := make(map[string][]string)
 

@@ -26,6 +26,10 @@ func check_data_struct(
 	return false
 }
 
+// Solution 0
+// Stats:
+// - Runtime: 100.00 precentile
+// - Memory: 23.87 percentile
 func isValidSudoku(board [][]byte) bool {
 
 	var box_idx int
@@ -43,7 +47,7 @@ func isValidSudoku(board [][]byte) bool {
 				row_map[val] = struct{}{}
 			}
 
-			box_idx = (idx % 3) + (jdx % 3)
+			box_idx = 3*(idx%3) + (jdx % 3)
 
 			if check_data_struct(idx, val, column_data_struct) {
 				return false
