@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-// Attempt 1:
+// Attempt 0:
 // Realized it need consecutive subarray although not explicitly stated
 func MinSubArrayLen0(target int, nums []int) int {
 	_minSubArrayLen := 0
@@ -29,7 +29,10 @@ func MinSubArrayLen0(target int, nums []int) int {
 
 }
 
-// Attempt 2:
+// Solution 1
+// Stats:
+// - Runtime: 100.0% precentile
+// - Memory: 32.53% percentile
 func MinSubArrayLen1(target int, nums []int) int {
 	left := 0
 	minLength := len(nums) + 1
@@ -64,6 +67,32 @@ func MinSubArrayLen1(target int, nums []int) int {
 					break
 				}
 			}
+		}
+	}
+
+	if minLength == len(nums)+1 {
+		minLength = 0
+	}
+
+	return minLength
+}
+
+// Solution 2 - Goal reduce memory
+// Stats:
+// - Runtime: 100.0% precentile
+// - Memory: 75.16% percentile
+func MinSubArrayLen2(target int, nums []int) int {
+	left := 0
+	minLength := len(nums) + 1
+	currentSum := 0
+
+	for right, val := range nums {
+		currentSum += val
+
+		for currentSum >= target {
+			minLength = min(minLength, right-left+1)
+			currentSum -= nums[left]
+			left++
 		}
 	}
 

@@ -4,7 +4,7 @@
 
 <progress value="0" max="60" style="width:300px;"></progress>  
 <br/>
-<strong>Completed: 9 / 60 problems</strong>
+<strong>Completed: 11 / 60 problems</strong>
 
 </div>
 
@@ -31,7 +31,7 @@
 | [X] | 3. Longest Substring Without Repeating Characters | Sliding Window | Must-know pattern |
 | [X] | 209. Minimum Size Subarray Sum | Sliding Window | Classic expand/shrink |
 | [X] | 76. Minimum Window Substring | Sliding Window | Hard but important |
-| [ ] | 424. Longest Repeating Character Replacement | Window | Very common FB/Google |
+| [X] | 424. Longest Repeating Character Replacement | Window | Very common FB/Google |
 
 ---
 
@@ -39,7 +39,7 @@
 
 | Done | Problem | Topic | Notes |
 |------|---------|--------|-------|
-| [ ] | 215. Kth Largest Element | Heap | Very common |
+| [X] | 215. Kth Largest Element | Heap | Very common |
 | [ ] | 23. Merge k Sorted Lists | Heap | Multilist merging |
 | [ ] | 295. Find Median from Data Stream | Dual Heaps | Real system design relevance |
 | [ ] | 502. IPO | Greedy + Heap | Good difficulty |
