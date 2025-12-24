@@ -1,4 +1,4 @@
-package longestsubstring
+package binarysearch
 
 // solution 0
 // runtime: 100.00 percentile

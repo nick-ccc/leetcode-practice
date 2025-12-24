@@ -4,7 +4,7 @@
 
 <progress value="0" max="60" style="width:300px;"></progress>  
 <br/>
-<strong>Completed: 13 / 60 problems</strong>
+<strong>Completed: 15 / 60 problems</strong>
 
 </div>
 
@@ -51,8 +51,8 @@
 | Done | Problem | Topic | Notes |
 |------|---------|--------|-------|
 | [X] | 704. Binary Search | Basic | Warm-up |
-| [ ] | 33. Search in Rotated Sorted Array | Binary Search | Back-end classic |
-| [ ] | 153. Find Minimum in Rotated Sorted Array | Binary Search | Same pattern |
+| [X] | 33. Search in Rotated Sorted Array | Binary Search | Back-end classic |
+| [X] | 153. Find Minimum in Rotated Sorted Array | Binary Search | Same pattern |
 | [ ] | 4. Median of Two Sorted Arrays | Binary Search | High-value |
 | [ ] | 875. Koko Eating Bananas | Binary Search on Answer | Must-learn pattern |
 | [ ] | 410. Split Array Largest Sum | Binary Search + Partition | Real systems application |

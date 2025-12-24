@@ -16,7 +16,33 @@ You must write an algorithm with O(log n) runtime complexity.
 
 ### Thinking:
 
+For log(n) complexity need to do a binary search. We need to, as we search, discern the relative placement. 
+If left is more than right, we are not is a sorted subarray, i.e. the rotation is affecting the search. 
+If `left<center` is in order than we can gaurantee that segment is in order. Equally if `center<right` 
+we can gaurantee that segment is in order. 
 
+
+```
+Example cases:
+[4,5,6,7,8,1,2]
+ ^     ^     ^
+ l     c     r
+
+[5,6,0,1,2,3,4]
+ ^     ^     ^
+ l     c     r
+```
+
+Thus at any point we can say (at least) one  half of the array 
+is sorted between either l->c or c->r. Binary search within a sorted subarray is the same, otherwise, we can 
+adjust the other pointer location since. For instance
+
+```
+if left half is sorted:
+    if (left value <= target and target <= center value): 
+        right = center - 1 // target is in sorted half
+    else: left = center + 1 // target is not, swap search to unsorted half
+```
 
 ### Post Solution Analysis:
 
