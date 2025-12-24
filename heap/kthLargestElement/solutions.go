@@ -33,9 +33,10 @@ func (h *IntHeap) Pop() any {
 
 func findKthLargest(nums []int, k int) int {
 	minHeap := IntHeap{}
+	heap.Init(&minHeap)
 
 	for _, val := range nums {
-		minHeap.Push(val)
+		heap.Push(&minHeap, val)
 
 		// pop if len > k
 		if minHeap.Len() > k {

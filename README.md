@@ -4,7 +4,7 @@
 
 <progress value="0" max="60" style="width:300px;"></progress>  
 <br/>
-<strong>Completed: 11 / 60 problems</strong>
+<strong>Completed: 13 / 60 problems</strong>
 
 </div>
 
@@ -40,7 +40,7 @@
 | Done | Problem | Topic | Notes |
 |------|---------|--------|-------|
 | [X] | 215. Kth Largest Element | Heap | Very common |
-| [ ] | 23. Merge k Sorted Lists | Heap | Multilist merging |
+| [X] | 23. Merge k Sorted Lists | Heap | Multilist merging |
 | [ ] | 295. Find Median from Data Stream | Dual Heaps | Real system design relevance |
 | [ ] | 502. IPO | Greedy + Heap | Good difficulty |
 
@@ -50,7 +50,7 @@
 
 | Done | Problem | Topic | Notes |
 |------|---------|--------|-------|
-| [ ] | 704. Binary Search | Basic | Warm-up |
+| [X] | 704. Binary Search | Basic | Warm-up |
 | [ ] | 33. Search in Rotated Sorted Array | Binary Search | Back-end classic |
 | [ ] | 153. Find Minimum in Rotated Sorted Array | Binary Search | Same pattern |
 | [ ] | 4. Median of Two Sorted Arrays | Binary Search | High-value |
