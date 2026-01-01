@@ -14,6 +14,9 @@ The overall run time complexity should be O(log (m+n)).
 Generally I recall this problem form undergrad. It reuqires keeping the count of two partitions of each array
 such that it creates subarrays whose sum have equal (or 1 off) length. If we keep track of each left partition and each right parition we want their sums to be equal, and once the middle satisifes that the left and right of opposite subarrays from the two seperate original arrays satisy `arr1_left[end] < arr2_right[start]` and `arr2_left[end] < arr1_right[start]` then we are in the middle (since `arrx_left[end] < arrx_right[start]` is always true).
 
+
+We also need to consider adding buffers of +/- infinity when we go beyond the length of the shorter array. 
+
 Scratch pad:
 ```
 [1,2,3,9,10,11]
@@ -36,12 +39,7 @@ In this case Median is 8
 
 [1] [7,9] 
 [2,3,4,5] [6,8,10]
-```
 
-The next difficult part is figuring out how to move the
-center index using a binary search scheme. 
-
-```
 [1,2,3,4,6]
 [5,7,8,9]
 
@@ -51,7 +49,29 @@ center index using a binary search scheme.
 [1,2,3] [4,6] 
 [5,7] [8,9]
 
+7 is greater than 4, move top array 1 left and bottom 
+1 right
+
+[1,2,3,4] [6]
+[5] [7,8,9]
+
+
+Case for +/- infinity
+
+[1,2,3,4,5,6]
+[7]
+
+ii)
+[1,2,3] [4,5,6]
+[-inf] [7]
+
+i)
+[1,2,3] [4,5,6]
+[7] [inf]
 ```
+
+Indexing 
+
 
 
 
